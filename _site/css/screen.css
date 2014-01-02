@@ -29,6 +29,19 @@
   list-style: none;
 }
 
-.img-row img {
-  width: 25%;
+.post-description {
+  display: inline-block;
+  position: absolute;
+  padding-left: 25px;
+}
+
+#portfolio-images li {
+  list-style: none;
+  float: left;
+  padding-right: 10px;
+}
+
+#portfolio-images {
+  padding: 0;
+  margin: 0;
 }

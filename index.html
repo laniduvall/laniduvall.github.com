@@ -2,35 +2,12 @@
 layout: default
 title: Lani DuVall
 ---
-
-<div id="home">
-  <header>
-    <div id="logo">
-      many logo here
-    </div>
-    <ul id="nav">
-      <li><a href="http://www.google.com">omg link</a></li>
-      <li><a href="http://www.google.com">omg link</a></li>
-      <li><a href="http://www.google.com">omg link</a></li>
-      <li><a href="http://www.google.com">omg link</a></li>
-    </ul>
-  </header>
-
-  <div id="portfolio-images">
-    <div class="img-row">
-      <img src="http://d22r54gnmuhwmk.cloudfront.net/photos/3/yi/to/cTyItoocJlulYjJ-556x313-noPad.jpg"/>
-      <img src="http://d22r54gnmuhwmk.cloudfront.net/photos/3/yi/to/cTyItoocJlulYjJ-556x313-noPad.jpg"/>
-      <img src="http://d22r54gnmuhwmk.cloudfront.net/photos/3/yi/to/cTyItoocJlulYjJ-556x313-noPad.jpg"/>
-    </div>
-    <div class="img-row">
-      <img src="http://d22r54gnmuhwmk.cloudfront.net/photos/3/yi/to/cTyItoocJlulYjJ-556x313-noPad.jpg"/>
-      <img src="http://d22r54gnmuhwmk.cloudfront.net/photos/3/yi/to/cTyItoocJlulYjJ-556x313-noPad.jpg"/>
-      <img src="http://d22r54gnmuhwmk.cloudfront.net/photos/3/yi/to/cTyItoocJlulYjJ-556x313-noPad.jpg"/>
-    </div>
-    <div class="img-row">
-      <img src="http://d22r54gnmuhwmk.cloudfront.net/photos/3/yi/to/cTyItoocJlulYjJ-556x313-noPad.jpg"/>
-      <img src="http://d22r54gnmuhwmk.cloudfront.net/photos/3/yi/to/cTyItoocJlulYjJ-556x313-noPad.jpg"/>
-      <img src="http://d22r54gnmuhwmk.cloudfront.net/photos/3/yi/to/cTyItoocJlulYjJ-556x313-noPad.jpg"/>
-    </div>
-  </div>
-</div>
+<ul id="portfolio-images">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">
+        <img src="/img/{{ post.img }}"/>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
