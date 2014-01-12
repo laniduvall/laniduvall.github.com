@@ -12,10 +12,8 @@
 }
 
 #logo {
-  width: 75px;
+  width: 560px;
   height: 75px;
-  background: red;
-  color: green;
   display: inline-block;
   position: absolute;
   top: 25px;
@@ -25,7 +23,7 @@
 #nav {
   display: inline-block;
   width: 100px;
-  padding-left: 115px;
+  padding-left: 570px;
   list-style: none;
 }
 
