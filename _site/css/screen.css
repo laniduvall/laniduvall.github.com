@@ -82,10 +82,6 @@ table {
   color: black;
 }
 
-#nav a:hover {
-  color: yellow;
-}
-
 .post-description {
   display: inline-block;
   position: absolute;
@@ -116,10 +112,6 @@ nav {
 #project-list li a {
   text-decoration: none;
   color: black;
-}
-
-#project-list li a:hover {
-  color: yellow;
 }
 
 #content-container {
