@@ -99,10 +99,23 @@ table {
   margin: 0;
 }
 
-nav, #project-list {
+nav {
   display: inline-block;
   width: 20%;
   float: left;
+}
+
+#project-list li {
+  padding: 10px 0;
+}
+
+#project-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+#project-list li a:hover {
+  color: yellow;
 }
 
 #content-container {
