@@ -43,6 +43,10 @@ table {
 }
 
 /* Actual CSS */
+body {
+  font-family: "Courier";
+}
+
 .container {
   width: 100%;
 }
