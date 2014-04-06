@@ -135,3 +135,17 @@ h2 {
 #post img {
   max-width: 440px;
 }
+
+img.namu {
+  width: 200px;
+}
+
+.img-container {
+  display: inline-block;
+}
+
+.description {
+  display: inline-block;
+  float: right;
+  width: 350px;
+}
